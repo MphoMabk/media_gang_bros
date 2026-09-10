@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 💬 Team Chat / Support
+    url: https://your-slack-or-discord-link.com
+    about: Ask questions and get help from the team
+  - name: 📚 Documentation
+    url: https://github.com/MphoMabk/media_gang_bros#readme
+    about: Check the README for setup and guidelines

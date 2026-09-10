@@ -1,0 +1,72 @@
+name: Brand New Brief
+description: A new client request.
+title: "[Request]: "
+labels: ["request", "new brieft", "needs-triage"]
+assignees: []
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## 📋 New Client Request
+        Please fill out the sections below to help the team quickly identify and resolve the issue.
+
+  - type: input
+    id: url
+    attributes:
+      label: 🔗 Link to Page
+      description: Paste the full URL where the issue occurred.
+      placeholder: https://toy-next.co.za/hilux-range 
+    validations:
+      required: true
+
+  - type: input
+    id: section
+    attributes:
+      label: 📍 Section Name
+      description: Specify which section, component, or feature of the page is affected.
+      placeholder: e.g., Gallery, Performance, Navigation bar
+    validations:
+      required: true
+
+  - type: textarea
+    id: issue-description
+    attributes:
+      label: ❌ What is the issue?
+      description: Provide a clear, detailed description of what went wrong.
+      placeholder: |
+        1. Describe the problem.
+        2. Add steps to reproduce:
+           1. 
+           2. 
+           3. 
+        3. Share the actual result and any error messages or screenshots.
+
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected-outcome
+    attributes:
+      label: ✅ What is the expected outcome for the fix?
+      description: Clearly state what the corrected behavior should be.
+      placeholder: |
+        Expected Result:
+        [Describe the correct behavior]
+
+        Acceptance Criteria:
+        - [ ] Criterion 1
+        - [ ] Criterion 2
+    validations:
+      required: true
+
+  - type: textarea
+    id: additional-context
+    attributes:
+      label: 📎 Additional Context
+      description: Add any other helpful information (e.g., browser, device, environment, urgency, related tickets).
+      placeholder: |
+        - Browser/Device: 
+        - Operating System: 
+        - Priority: 
+        - Related Tickets: 
